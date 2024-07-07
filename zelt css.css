@@ -1,0 +1,442 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.ubuntu-light {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ubuntu-medium {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .ubuntu-light-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .ubuntu-regular-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .ubuntu-medium-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .ubuntu-bold-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+#main {
+    position: relative;
+    overflow: hidden;
+}
+
+#page{
+    height: 1000px;
+    width: 1000px;
+    background-color: #000;
+}
+
+#page1{
+    height: 1000px;
+    width: 1000px;
+    background-color:#E4E0DD;
+}
+
+#page>canvas{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    z-index: 50;
+   
+}
+#nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    width: 30vw;
+    position: fixed;
+    z-index: 50;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 3%;
+    border-radius: 20px;
+    background-color: #ffffff54;
+    backdrop-filter: blur(10px);
+    padding: 0px 5px;
+}
+
+#nav>img{
+    width: 10%;
+}
+#center-nav>a{
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    font-size: 15px;
+
+}
+
+#nav>button{
+    padding: 20px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffcd6d;
+    font-weight: 600;
+}
+
+#page1{
+    height: 1000px;
+    width:1000px;
+    position: relative;
+}
+
+#page>h1{
+    font-size: 80px;
+    position: absolute;
+    top: 10%;
+    left: 34%;
+    z-index: 50;
+    text-align: center;
+    padding-right: 30px;
+
+}
+
+#page>h3{
+    position: absolute;
+    top: 17%;
+    left: 25%;
+    text-align: center;
+    font-size: 30px;
+    text-align: center;
+    z-index: 50;
+    padding-left: 50px;
+}
+
+
+#page1>h1{
+    position: absolute;
+    left: 46%;
+    top: 80%;
+    font-size: 100px;
+    font-weight: 200;
+    font-size: 100px;
+    transform: translate(-50% , -50%);
+    text-align: center;
+    z-index: 50;
+    padding-left: 70px;
+}
+
+#page1>h3
+{
+    position: relative;
+    left: 0%;
+    top: 100%;
+    text-align: center;
+    font-size: 30px;
+    padding-left: 6%;
+    padding-right: 90px;
+    font-weight: 100;
+    white-space: nowrap;
+    z-index: 50;
+    
+}
+
+#page2{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #E3DFDC;
+    z-index: 50;
+    background-color: transparent;
+}
+
+#page2>h1{
+    position: relative;
+    left: 30%;
+    top: 60%;
+    right: 80%;
+    width: 3000px;
+    padding-left: 30px;
+    font-size: 50px;
+    padding-right: 200px;
+    text-align: left;
+    text-wrap: 44;
+    padding-left: 40px;
+    z-index: 50;
+    
+   
+    
+}
+
+#page2>h3{
+    position: absolute;
+    left: 30%;
+    top: 85%;
+    right: 300px;
+    font-size: 24px;
+    padding-left: 30px;
+    z-index: 50;
+
+    
+}
+
+#page3{
+    position: relative;
+    height: 1000px;
+    width: 1000px;
+    background-color: transparent;
+}
+
+
+#page4{
+    position: relative;
+    height: 200vh;
+    width: 120vw;
+    background-color:#FFFFFF;
+    z-index: 50;
+
+}
+
+
+#center-page4{
+    display: flex;
+    position: absolute;
+    top: 60%;
+    left: 43%;
+    transform: translate(-50% , -50%);
+    height: 60%;
+    width: 70%;
+    background-color: #F6F3EF;
+}
+
+
+
+#leftpg-4{
+    height: 100%;
+    width: 50%;
+}
+#leftpg-4>svg{
+    scale:0.7;
+}
+#rightpg-4{
+    display: flex;
+    align-items: start;
+    gap: 30px;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    padding-left: 60px;
+}
+#rightpg-4>h1{
+    font-weight: 600;
+}
+#rightpg-4>h4{
+    font-weight: 500;
+    width: 70%;
+    color: #969696e9;
+}
+#rightpg-4>button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+}
+
+#page4>h1{
+    font-weight: 10000;
+    position: relative;
+    left: 15%;
+    top: 18%;
+    font-size: 50px;
+}
+
+#pg5{
+    position: relative;
+    height: 180vh;
+    width: 120vw;
+    background-color:white;
+    z-index: 40;
+}
+
+#pg5-center{
+    position: absolute;
+    display: flex;
+    height: 40%;
+    width: 58%;
+    right: 30%;
+    top: 20%;
+    overflow: hidden;
+
+    background-color: indianred;
+}
+
+#pg5-left{
+    width: 50%;
+    height: 100%;
+    background-color:#FFFFFF;
+    margin-left: 0;
+
+}
+#pg5-left>h1{
+    position: relative;
+    top: 24%;
+    left: 10%;
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#pg5-left>h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    text-align: center;
+    top: 25%;
+    padding-right: 30px;
+    padding-left: 20px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+
+#pg5-right {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    overflow: hidden; /* Ensure content doesn't overflow */
+}
+
+#pg5-right video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensure video takes full width of parent */
+    height: 101%; /* Ensure video takes full height of parent */
+    object-fit: cover; /* Maintain aspect ratio */
+    padding-bottom: 0%;
+}
+
+#pg5>h1{
+    position: relative;
+    top: 10%;
+    font-size: 60px;
+    left: 30%;
+}
+
+
+#page6{
+    position: relative;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+.left-page6{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    padding-left: 10vw;
+}
+.left-page6>h1{
+    font-size: 2.8vw;
+    font-weight: 600;
+}
+.left-page6>h4{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 50%;
+}
+.right-page6{
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+.right-page6>video{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 70%;
+    width: 70%;
+}
+
+
+#page7{
+    position: relative;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+.left-page7{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    padding-left: 10vw;
+}
+.left-page7>h1{
+    font-size: 2.8vw;
+    font-weight: 600;
+}
+.left-page7>h4{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 50%;
+}
+.right-page7{
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+.right-page7>img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 70%;
+    width: 70%;
+}
+
+
+    
+
